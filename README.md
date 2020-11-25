@@ -26,12 +26,13 @@ Introduction
 Image display is a useful feature for the consumer electronics. In this homework,
 you are going to implement an image display controller with some simple functions.
 An 8×8 image will be loaded first, and it will be processed with several functions.
-  - Operation Mode | Meaning | Need to display?
-  - 3’b000 Input image loading No
-  - 3’b001 Origin right shift Yes
-  - 3’b010 Origin down shift Yes
-  - 3’b011 Default origin Yes
-  - 3’b100 Zoom-in Yes
-  - 3’b101 Median filter operation No
-  - 3’b110 YCbCr display No
-  - 3’b111 RGB display
+| Operation Mode | Meaning | Need to display?|
+|---------|---------|--------|
+|3’b000 |Input image loading| No|
+|3’b001 |Origin right shift |Yes|
+|3’b010 |Origin down shift |Yes|
+|3’b011 |Default origin |Yes|
+|3’b100 |Zoom-in |Yes|
+|3’b101 |Median filter operation |No|
+|3’b110 |YCbCr display |No|
+|3’b111 |RGB display |No|
