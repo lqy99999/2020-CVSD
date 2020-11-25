@@ -4,7 +4,6 @@ Computer-aided Vlsi System Design
 
 ## hw1
 Introduction
----
 The Arithmetic logic unit (ALU) is one of the components of a computer processor.
 The ALU has math, logic, and some designed operations in the computer. In this
 homework, you are going to design an ALU with some special instructions, and use the
@@ -13,7 +12,6 @@ ALU to compute input data to get the correct results.
 
 ## hw2
 Introduction
----
 Central Processing Unit (CPU) is the important core in the computer system. In
 this homework, you are asked to design a simple MIPS CPU, which contains the basic
 module of program counter, ALU and register files. The instruction set of the simple
@@ -22,7 +20,6 @@ data_mem.v) are protected, you also need to design the testbench to test your de
 
 ## hw3
 Introduction
----
 Image display is a useful feature for the consumer electronics. In this homework,
 you are going to implement an image display controller with some simple functions.
 An 8×8 image will be loaded first, and it will be processed with several functions.
